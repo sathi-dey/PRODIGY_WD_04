@@ -26,7 +26,7 @@ It features work from my **Web Development Internship at Prodigy InfoTech**, my 
 5. **Contact** – Contact form and social links
 
 ## 🔗 Live Demo
-[View My Portfolio](https://yourusername.github.io/PRODIGY_WD_04/)
+[View My Portfolio](https://sathi-dey.github.io/PRODIGY_WD_04/)
 
 ## 📜 License
 This portfolio is for personal use. Content and design © 2025 Sathi Dey.
