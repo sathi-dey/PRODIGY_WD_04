@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathi Dey - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Sathi Dey</div>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="neon-wave"></div>
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Passionate Web Developer</p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Sathi Dey — part-time code whisperer, part-time poem writer.
+        From crafting cool web apps at Prodigy InfoTech to mixing HTML, CSS, and a pinch of accounting magic in Excel & Tally,
+       I turn ideas into pixels that actually behave.</p>
+        <a href="myresume.pdf" target="_blank" class="resume-btn">📄 View My Resume</a>
+    </section>
+
+
+<!-- Skills -->
+  <section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="skills-container" aria-label="Skills carousel">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Java Servlets & JSP</div>
+      <div class="skill-card">React.js</div>
+      <div class="skill-card">SQL (MySQL, PostgreSQL)</div>
+      <div class="skill-card">Git & GitHub</div>
+      <div class="skill-card">API Integration</div>
+      <div class="skill-card">Adv Excel</div>
+      <div class="skill-card">Tally</div>
+    </div>
+  </section>
+
+    <!-- Tools -->
+    <section id="tools">
+        <h2>Tools & Technologies</h2>
+        <div class="tools-container">
+            <div class="tool-card">VS Code</div>
+            <div class="tool-card">Trello</div>
+            <div class="tool-card">Git</div>
+            <div class="tool-card">PowerBI</div>
+            <div class="tool-card">Figma</div>
+            <div class="tool-card">Canva</div>
+            <div class="tool-card">ChatGPT & AI-based research tools</div>
+        </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <div class="hobbies-container">
+            <div class="hobby-card">Reading</div>
+            <div class="hobby-card">Creative writing & poetry</div>
+            <div class="hobby-card">Travel & cultural exploration</div>
+            <div class="hobby-card">Exploring Technology</div>
+            <div class="hobby-card">Photography</div>
+        </div>
+    </section>
+
+   <!-- Projects -->
+<section id="projects" class="reveal">
+  <h2>Projects</h2>
+  <div class="projects-carousel" aria-label="Projects carousel">
+    
+    <article class="project-card">
+      <img src="https://www.ingramspark.com/hubfs/8_tips_for_writing_a_cookbook_6_5_18.png" alt="Flavour Nova preview" />
+      <div class="info">
+        <h3>Flavour Nova</h3>
+        <p>A smart recipe website with categories, blogs, surprise-me feature, and Spotify music integration.</p>
+        <a href="https://sathi-dey.github.io/Flavor_Nova/" class="github-btn" target="_blank">View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="https://ucarecdn.com/6320962b-d4bf-4cfc-a66c-7972492f77c0/" alt="Weather Web App preview" />
+      <div class="info">
+        <h3>Weather Web App</h3>
+        <p>Live weather app with map integration, city auto-suggestions, and animated weather icons.</p>
+        <a href="https://sathi-dey.github.io/PRODIGY_WD_05/" class="github-btn" target="_blank">View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="https://play-lh.googleusercontent.com/-EKrBf5WjIWitIVLpgsphNQIP_o3zIIy14bRQ2Wohej_It3ctYGNjFdiBkjrbBjCWBEY=h500" alt="Tic Tac Toe preview" />
+      <div class="info">
+        <h3>Tic Tac Toe Game</h3>
+        <p>Game with friend and AI mode, styled dashboard, and game stats tracking.</p>
+        <a href="https://sathi-dey.github.io/PRODIGY_WD_03/" class="github-btn" target="_blank">View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <img src="https://cdn.dribbble.com/userupload/41507336/file/original-f746bfbc258713a6dd381700335c3795.png?resize=752x&vertical=center" alt="ElectroMart preview" />
+      <div class="info">
+        <h3>ElectroMart</h3>
+        <p>An e-commerce website for electronics with category filters, product pages, and cart functionality.</p>
+        <a href="https://sathi-dey.github.io/PRODIGY_WD_01/" class="github-btn" target="_blank">View on GitHub</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me:</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sathi-dey-9b246b308" target="_blank">LinkedIn</a>
+            <a href="https://github.com/sathi-dey" target="_blank">GitHub</a>
+            <a href="https://www.naukri.com/mnjuser/profile" target="_blank">Naukri</a>
+        </div>
+        <p>&copy; 2025 Sathi Dey</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
